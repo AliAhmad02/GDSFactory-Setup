@@ -57,7 +57,7 @@ text2.rotate(30)
 c.show()
 ```
 
-At this point, the code above may not result in any output. This is because GDSFactory has two ways of visualizing the geometry. The first is the ``c.show()`` method which is what is used above. This uses GDSFactory's integration with the widely used [KLayout](https://www.klayout.de/) interactive mask viewer. To set up the integration with KLayout, first install KLayout.
+At this point, the code above may not result in any output. This is because GDSFactory has two ways of visualizing the geometry. The first is the ``c.show()`` method which is what is used above. This uses GDSFactory's integration with the widely used [KLayout](https://www.klayout.de/) interactive mask viewer. To set up the integration with KLayout, you should first [install KLayout](https://www.klayout.de/build.html).
 
 KLayout can be opened in either viewer mode or editor mode. We recommend opening the program in viewer mode, since it is generally faster and we will not need any of the editing functionality, since the editing will be done in Python.
 
