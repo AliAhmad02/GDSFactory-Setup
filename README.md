@@ -59,7 +59,7 @@ c.show()
 
 At this point, the code above may not result in any output. This is because GDSFactory has two ways of visualizing the geometry. The first is the ``c.show()`` method which is what is used above. This uses GDSFactory's integration with the widely used [KLayout](https://www.klayout.de/) interactive mask viewer. To set up the integration with KLayout, you should first [install KLayout](https://www.klayout.de/build.html).
 
-KLayout can be opened in either viewer mode or editor mode. We recommend opening the program in viewer mode, since it is generally faster and we will not need any of the editing functionality, since the editing will be done in Python.
+KLayout can be opened in either viewer mode or editor mode. We recommend opening the program in viewer mode, since it is generally faster and we will not need any of the editing functionality, as the editing will be done in Python.
 
 To get KLayout to integrate with GDSFactory, you need to install the GDSFactory extension for KLayout. In KLayout, this can be done from the package manager, which is accessed from ``Tools>Manage Packages`` in the top bar. Then you can search for GDSFactory on the "Install New Packages" tab and install the extension.
 
