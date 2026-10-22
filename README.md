@@ -65,6 +65,6 @@ To get KLayout to integrate with GDSFactory, you need to install the GDSFactory 
 
 With the package successfully installed, you should now see options relating to the GDSFactory integration in KLayout, for example, "Restart Klive". At this point, with KLayout open in the background, you should simply re-run the code from earlier and the geometry should be streamed to KLayout automatically. For a demonstration of this, see the video below:
 
-![](gdsfactory_klayout.mp4)
+https://github.com/user-attachments/assets/9ac04646-b63f-4b43-84e9-23e8e3c8585a
 
 Finally, the second way of displaying the geometries is the ``c.plot()`` method. This method just gives a picture without the interactive functionality of the KLayout viewer. It is equivalent to ``plt.plot()`` with matplotlib. Note that ``c.plot()`` only shows the plot in an interactive environment like a Jupyter Notebook. If you are running the code in a standalone script, you need to import matplotlib and run ``plt.show()`` after ``c.plot()``.
